@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+body {
+    background: #0d192b;
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+.hero {
+    padding: 5em 2em;
+    
+    .container {
+        background: #14253d;
+        padding: 2em 2em;
+        border-radius: 25px;
+    }
+    .hero-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 27em;
+        height:27em;
+        margin-bottom: 1em;
+        border-radius: 15px;
+    }
+    .image-header {
+        display: block;
+        color: aliceblue;
+        margin-left: 1%;
+    }
+    .sub-def {
+        display: block;
+        color: rgb(238, 228, 215);
+    }
+    .eth-status {
+        display: flex;
+        place-content: space-between;
+        .left-side {
+            display: flex;
+            place-content: space-between;
+            position: relative;
+            letter-spacing: .03em;
+            
+            .l-s-image{
+                // left: 10px;
+                // width: 20px;
+                // padding: 2em 3em;
+
+            }
+            .eth-price{
+                color: rgb(32, 129, 214);
+                // margin-right: 7em;
+                // text-align: right;
+                // font-size: 15px;
+            }
+        }
+        .right-side {
+            display: flex;
+            place-content: space-between;
+            .r-s-image{
+                // left: 10px;
+                // width: 20px;
+                // padding: 10%;
+            }
+            .time-left{
+                color: aliceblue;
+                // display: inline;
+                // margin-right: 7em;
+                // text-align: right;
+                // font-size: 15px;
+            }
+        }
+    }
+    .line{
+        border-top: 0.1px;
+    }
+    .creator{
+        display: flex;
+        // place-content: space-between;
+
+        .creator-avatar{
+            border: 5px solid #555;
+            border-radius:50%;
+            width: 2.5em;
+            height: 2.5em;
+            margin-right: 1em;
+        }
+        .creator-name{
+            // display: block;
+            color: rgb(238, 228, 215);
+            span{
+                color: aliceblue;
+            }
+        }
+    }
+
+}

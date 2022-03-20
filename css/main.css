@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
+body {
+  background: #0d192b;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.hero {
+  padding: 5em 2em;
+}
+
+.hero .container {
+  background: #14253d;
+  padding: 2em 2em;
+  border-radius: 25px;
+}
+
+.hero .hero-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 27em;
+  height: 27em;
+  margin-bottom: 1em;
+  border-radius: 15px;
+}
+
+.hero .image-header {
+  display: block;
+  color: aliceblue;
+  margin-left: 1%;
+}
+
+.hero .sub-def {
+  display: block;
+  color: #eee4d7;
+}
+
+.hero .eth-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.hero .eth-status .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  position: relative;
+  letter-spacing: .03em;
+}
+
+.hero .eth-status .left-side .eth-price {
+  color: #2081d6;
+}
+
+.hero .eth-status .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.hero .eth-status .right-side .time-left {
+  color: aliceblue;
+}
+
+.hero .line {
+  border-top: 0.1px;
+}
+
+.hero .creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .creator .creator-avatar {
+  border: 5px solid #555;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+}
+
+.hero .creator .creator-name {
+  color: #eee4d7;
+}
+
+.hero .creator .creator-name span {
+  color: aliceblue;
+}
+/*# sourceMappingURL=main.css.map */
